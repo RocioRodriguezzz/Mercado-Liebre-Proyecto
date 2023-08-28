@@ -1,0 +1,274 @@
+header{
+    background-color:hsl(50, 82%, 53%);
+
+}
+body{
+    background-color: #ebebed;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 12px;
+}
+h1{
+    font-size: 24px;
+    margin-left: 5%;
+}
+h2{
+    font-size: 16px;
+}
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 16px;
+    color: green;
+}
+.contenedor1{
+    display: flex;
+    justify-content: center;
+}
+.contenedor2{
+    display: flex;
+
+}
+
+.burger-menu{
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(31, 121, 238);
+    color: white;
+    border: solid #EAC926 10px;
+}
+
+
+
+.card-list-products{
+    width: 90%;
+    margin-left: 5%;
+}
+
+article{
+    margin: 10px;
+}
+.caja{
+
+    background-color: white;
+    border-top: solid 1px #ebebed;
+    padding: 15px;
+}
+
+@media(max-width: 361px){
+    .descripcion0{
+        display:none;
+    }
+    .descripcion{
+        display: none;
+    }
+}
+
+@media(min-width: 361px){
+    .burger-menu{
+        display: none;
+    }
+    .card-list-products :hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        transition-duration: 0.5s;
+    }
+}
+
+
+
+
+.fot1{
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    margin:5%;
+}
+.fot2{
+    font-size: 15px;
+    margin-left:5%;
+    margin-bottom: 10px;
+}
+
+footer section i:hover {
+    background-color: #EAC926;
+    padding: 5px;
+    transition: 0.5s;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+img{
+    width: 100%;
+}
+.container-related-products{
+    margin-bottom:30px;
+}
+
+
+@media(min-width: 481px){
+    .card-list-products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .maxx{
+        display: flex;
+        width: 100%;
+    }
+    .barraBusqueda{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .uno{
+        display: flex;
+        justify-content: start;
+        margin: 15px;
+        padding: 15px;
+        gap: 15px;
+    }
+    .dos{
+        display: flex;
+        justify-content: end;
+        margin: 15px;
+        padding: 15px;
+        gap: 15px;
+    }
+    .maxx{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .descripcion0{
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+    .contenedor1 h2{
+        display: flex;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+}
+@media(min-width: 1280px){
+    .card-list-products{
+        display: grid;      
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .uno{
+        display: flex;
+        justify-content: start;
+        margin: 15px;
+        padding: 15px;
+        gap: 30px;
+    }
+    .dos{
+        display: flex;
+        justify-content: end;
+        margin: 15px;
+        padding: 15px;
+        gap: 30px;
+    }
+    .contenedor1{
+        display: flex;
+        align-items: center;
+        align-items: flex-end;
+    }
+    .maxx{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .descripcion0{
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        flex-direction: row;
+    }
+    .contenedor1 h2{
+        display: flex;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+}
+.uno1{
+    text-decoration: none;
+    list-style-type: none;
+}
+.inicio{
+    display: flex;
+}
+.logo{
+    width: 50%;
+}
+.barraBusqueda{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.buscar{
+    border: 1px solid;
+    background-color: white;
+    color: gray;
+    padding: 10px;
+
+}
+header div .barraBusqueda i {
+    border: 1px solid;
+    background-color: white;
+    padding: 5px
+}
+.contenedor1{
+    display: flex;
+    align-items: center;
+}
+.infoo{
+    display: flex;
+    gap: 20px;
+}
+
+.caja .descripcion{
+    display: none;
+    background-color: white;
+}
+
+.caja:hover .descripcion{
+    display: block;
+    transition: 2s;
+    transition-timing-function: ease-out;
+}
+
+
+
+main section article i{
+    display:flex;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54e;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    left: 90%;
+    bottom:30px;
+
+}
+main section article i:hover{
+    transform: rotate(-90deg);
+    transition: 0.5s ease;
+}
+.inicio{
+    gap: 10px;
+}
+
+
+.cero0{
+    list-style: none;
+}

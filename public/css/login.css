@@ -1,0 +1,233 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+button{
+    background-color: yellow;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+button:hover{
+    background-color: #0022AA;
+    color:#ebebeb;
+    transition: 0.5s;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+.login p{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.log{
+    background-color: #0022AA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ebebeb;
+    padding: 10%;
+}
+.log h2{
+    padding: 20px;
+}
+
+
+.lata{
+    background-color: white;
+}
+.fot1{
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    margin:5%;
+}
+.fot2{
+    font-size: 15px;
+    margin-left:5%;
+    margin-bottom: 10px;
+}
+
+footer section i:hover {
+    background-color: #EAC926;
+    padding: 5px;
+    transition: 0.5s;
+}
+footer{
+    font-size: small;
+}
+
+
+
+
+
+header{
+    background-color: #EAC926;
+}
+.contenedor1{
+    display: flex;
+    justify-content: center;
+}
+.contenedor2{
+    display: flex;
+
+}
+
+.burger-menu{
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(31, 121, 238);
+    color: white;
+    border: solid #EAC926 10px;
+}
+@media(max-width: 361px){
+    .descripcion0{
+        display:none;
+    }
+    .descripcion{
+        display: none;
+    }
+}
+
+@media(min-width: 361px){
+    .burger-menu{
+        display: none;
+    }
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+@media(min-width: 481px){
+
+    .maxx{
+        display: flex;
+    }
+    .barraBusqueda{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .descripcion0{
+        display: flex;
+        
+    }
+    .uno{
+        display: flex;
+        justify-content: start;
+        margin: 15px;
+        padding: 15px;
+        gap: 15px;
+    }
+    .dos{
+        display: flex;
+        justify-content: end;
+        margin: 15px;
+        padding: 15px;
+        gap: 15px;
+    }
+    .maxx{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .descripcion0{
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+    .contenedor1 h2{
+        display: flex;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+}
+@media(min-width: 1280px){
+
+    .descripcion0{
+        display: flex;
+        flex-direction: row;
+    }
+    .uno{
+        display: flex;
+        justify-content: start;
+        margin: 15px;
+        padding: 15px;
+        gap: 15px;
+    }
+    .dos{
+        display: flex;
+        justify-content: end;
+        margin: 15px;
+        padding: 15px;
+        gap: 15px;
+    }
+    .maxx{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .descripcion0{
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        flex-direction: row;
+    }
+    .contenedor1 h2{
+        display: flex;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+}
+
+.inicio{
+    display: flex;
+}
+.logo{
+    width: 50%;
+}
+.barraBusqueda{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.buscar{
+    border: 1px solid;
+    background-color: white;
+    color: gray;
+    padding: 10px;
+}
+
+header div .barraBusqueda i {
+    border: 1px solid;
+    background-color: white;
+    padding: 5px
+}
+.contenedor1{
+    display: flex;
+    align-items: center;
+}
+.inicio{
+    gap: 10px;
+}
+.contenedor1{
+    margin-left: 10px;
+    font-size: 10px
+}
+.uno1{
+    text-decoration: none;
+}
+.cero0{
+    list-style: none;
+}
